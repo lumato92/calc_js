@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e63f160475.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/main.css">
+    <script src="/main.js"></script>
+    <title>Calculadora JS</title>
+</head>
+<body>
+    <h1>Calculadora JS</h1>
+    <div class="Calculator">
+    <div class="main-container">
+
+       
+            <input type="text" class="screen" id="main-screen">
+            <div class="numbers-btns">
+            <input type="button" value="9" class="number-btn" id="btn-9" onclick="getNumber('9')">
+            <input type="button" value="8" class="number-btn" id="btn-8" onclick="getNumber('8')">
+            <input type="button" value="7" class="number-btn" id="btn-7" onclick="getNumber('7')">
+            <input type="button" value="6" class="number-btn" id="btn-6" onclick="getNumber('6')">
+            <input type="button" value="5" class="number-btn" id="btn-5" onclick="getNumber('5')">
+            <input type="button" value="4" class="number-btn" id="btn-4" onclick="getNumber('4')">
+            <input type="button" value="3" class="number-btn" id="btn-3" onclick="getNumber('3')">
+            <input type="button" value="2" class="number-btn" id="btn-2" onclick="getNumber('2')">
+            <input type="button" value="1" class="number-btn" id="btn-1" onclick="getNumber('1')">
+            <input type="button" value="0" class="number-btn" id="btn-0" onclick="getNumber('0')">
+            <!-- <i class="fa-solid fa-equals"></i> -->
+            <input type="button" value="" class="number-btn" id="btn-result" onclick="getResult()">
+            </div>
+        
+            <div class="oper-btns">
+            <input type="button" value="+" class="ope-btn" onclick="getOperation(1)">
+            <input type="button" value="-" class="ope-btn" onclick="getOperation(2)">
+            <input type="button" value="*" class="ope-btn" onclick="getOperation(3)">
+            <input type="button" value="/" class="ope-btn" onclick="getOperation(4)">
+            
+            </div>
+    </div>
+    </div>
+    
+</body>
+</html>
