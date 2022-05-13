@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: rgb(251, 251, 249);
 }
 h1{
     text-align: center;
@@ -18,13 +18,15 @@ input{
 }
 
 .main-container{
+    border-radius: 5px;
     margin: auto;
-    width: 400px;
-    height: 600px;
-    background-color: aquamarine;
+    box-sizing: border-box;
+    /* width: 400px;
+    height: 600px; */
+    background-color: #484e4e;
     display: grid;
     grid-template-columns: 50px 50px 50px 50px;
-    grid-template-rows: 10% 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
 }
 
 .screen{
@@ -43,6 +45,7 @@ input{
     display: grid;
     grid-template-columns: 50px 50px 50px;
     grid-template-rows: 50px 50px 50px 1fr;
+    padding: 0;
 
 }
 #btn-0{
@@ -54,10 +57,16 @@ input{
     grid-column-start: 3;
 }
 .oper-btns{
+    padding: 0;
     grid-column-start: 4;
     grid-row-start: 2;
     grid-row-end: 6;
     display: grid;
     grid-template-columns: 50px;
     grid-template-rows: 50px 50px 50px;
+}
+
+.btn-light{
+    background-color: #e0e0e0 !important;
+    color: whitesmoke !important;
 }
